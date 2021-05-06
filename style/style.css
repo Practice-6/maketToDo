@@ -108,6 +108,7 @@
 .list-group-item.MyDayClass{
   border: 0;
   background-color: #E6E9EC;
+
 }
 /* активные классы */
 .list-group-item.active {
@@ -386,7 +387,7 @@ Footer change all block footer */
 
 }
 
-.footerTwo.alert{
+.footerTwo.Alert{
   /*Делаем второй футер для основного контента */
   position: fixed;
   /* Фиксированное положение */
@@ -406,6 +407,18 @@ Footer change all block footer */
   border-radius: 5px;
   /* закругляем края */
 }
+.footerTwo.myDay.AlertFooter{
+  background-color: rgba(238, 162, 212, 0.62);
+}
+.addTask.styleInput{
+  color: white;
+  background-color: rgba(238, 162, 212, 0.62);
+
+}
+input::-webkit-input-placeholder{
+  color: white;
+}
+
 .footerTwo.tasks{
   /*Делаем второй футер для основного контента */
   position: fixed;
@@ -466,4 +479,8 @@ Footer change all block footer */
 }
 .inputStyle{
   margin-right: 10px;
+}
+.fontsList{
+  width: 100px;
+  height: 25px;
 }
